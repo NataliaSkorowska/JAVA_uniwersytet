@@ -1,2 +1,5 @@
 # JAVA_zadania
-Repository with exercices I have done while learning Java
+Zadanie wykonane podczas nauki Javy:
+- 4 zadania z tematu "Dziedziczenie"
+- 4 zadania z tematu "Konstruktory"
+- 4 zadania z tematu "Klasy"

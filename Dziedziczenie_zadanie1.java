@@ -3,6 +3,7 @@ package com.company;
 public class Main {
     public static void main(String[] args) {
         Podstawowa b1 = new Podstawowa();
+        
         b1.f();
         b1.g();
 

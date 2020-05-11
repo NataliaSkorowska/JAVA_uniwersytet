@@ -14,7 +14,7 @@ public class Main {
         if (liczba % 2 == 0) {
             System.out.println( liczba + " jest liczbą parzystą");
         }
-        else {
+        else  {
             System.out.println(liczba + " nie jest liczbą parzystą");
         }
 

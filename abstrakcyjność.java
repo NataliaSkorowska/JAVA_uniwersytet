@@ -5,6 +5,7 @@ import org.w3c.dom.ls.LSOutput;
 public class Main {
 
     public static void main(String[] args) {
+       
         Podstawowa b = new Pochodna1();
         b.f();
         b.g();

@@ -1,0 +1,40 @@
+package com.company;
+public class Main {
+
+    public static void main(String[] args) {
+
+        DwaGeneryczne<Integer, String> tgObj = new DwaGeneryczne<Integer, String>(79, "Klasy generyczne przyklad");
+        tgObj.pokazTypy();
+
+        int v = tgObj.zwrocObiektPierwszy();
+        System.out.println("wartość: " + v);
+
+        String str = tgObj.zwrocObiektDrugi();
+        System.out.println("wartość: " + str);
+    }
+
+}
+class DwaGeneryczne<T, V> {
+    T obiektPierwszy;
+
+    V obiektDrugi;
+
+    DwaGeneryczne(T o1, V o2) {
+        obiektPierwszy = o1;
+        obiektDrugi = o2;
+    }
+
+    void pokazTypy() {
+        System.out.println("Typ T to " + obiektPierwszy.getClass().getName());
+
+        System.out.println("Typ V to " + obiektDrugi.getClass().getName());
+    }
+
+    T zwrocObiektPierwszy() {
+        return obiektPierwszy;
+    }
+
+    V zwrocObiektDrugi() {
+        return obiektDrugi;
+    }
+}
